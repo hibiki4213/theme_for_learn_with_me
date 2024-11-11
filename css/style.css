@@ -1,0 +1,56 @@
+/* Header */
+header .top {
+    width: 98%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+/* Logo */
+header .top .logo {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+header .top .logo .img {
+    float: left;
+}
+
+header .top .logo .text {
+    float: left;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+header .top .logo .img img {
+    width: 80px;
+    height: auto;
+}
+
+/* Search */
+header .top .search {
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Login */
+header .top .not-login {
+    width: 30%;
+    height: auto;
+    float: right;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header .top .not-login .login {
+    float: right;
+    margin-left: 10px;
+}
+
+header .top .not-login .register {
+    float: right;
+}
