@@ -68,7 +68,7 @@ header .slider .carousel-control-next, header .slider .carousel-control-prev {
     width: 5%;
 }
 
-header .slider .carousel-caption {
+header .slider .carousel-item .carousel-caption {
     left: 0;
     right: 40%;
     padding-left: 7%;
@@ -76,6 +76,40 @@ header .slider .carousel-caption {
     top: 15%;
 }
 
+header .slider .carousel-item.carousel-caption h3 {
+    font-weight: bold;
+}
+
 header .slider .carousel-item img {
     border-radius: 10px;
 }
+
+/* Main */
+.main .top, .main .bot {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 30px;
+}
+
+.main .top .title, .main .bot .title {
+    margin-bottom: 20px;
+}
+
+.main .top .title h3, .main .bot .title h3 {
+    font-weight: bold;
+}
+
+.main .top .content .row, .main .bot .content .row {
+    margin-left: 0;
+}
+
+.main .top .content .card, .main .bot .content .card {
+    width: 18rem;
+}
+
+.main .top .content .card .card-boby h3, .main .bot .content .card .card-boby h3 {
+    font-weight: bold;
+}
+
