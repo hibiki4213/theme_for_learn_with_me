@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* Header */
 header .top {
     width: 90%;
@@ -113,9 +117,10 @@ header .slider .slideshow-container .text {
     bottom: 8px;
     width: 50%;
     text-align: left;
-    left: 30px;
+    left: 40px;
     margin-left: auto;
     margin-right: auto;
+    top: 8px;
 }
 
 header .slider .slideshow-container .text .decription {
