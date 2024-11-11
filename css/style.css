@@ -113,3 +113,48 @@ header .slider .carousel-item img {
     font-weight: bold;
 }
 
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+
+footer .container {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .container .logo {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .container .logo .img {
+    float: left;
+}
+
+footer .container .logo .text {
+    float: left;
+    padding-top: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10px;
+}
+
+footer .container .logo .img img {
+    width: 60px;
+    height: auto;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
