@@ -1,9 +1,12 @@
+body a {
+    text-decoration: none;
+    color: unset;
+}
+
 /* Header */
 header .top {
-    width: 90%;
     height: 70px;
     margin: auto;
-    /* border: 1px solid black; */
 }
 
 /* Logo */
@@ -20,7 +23,7 @@ header .top .logo .img {
 header .top .logo .text {
     float: left;
     padding-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
 }
 
@@ -46,6 +49,17 @@ header .top .not-login {
     padding-top: 15px;
 }
 
+header .top .not-login .modal-content .modal-body {
+    text-align: left;
+}
+
+header .top .not-login .modal-content .modal-body .btn-submit-login,
+.btn-submit-register {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 header .top .not-login .login {
     float: right;
     margin-left: 10px;
@@ -60,11 +74,12 @@ header .slider {
     width: 90%;
     height: auto;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     padding-top: 10px;
 }
 
-header .slider .carousel-control-next, header .slider .carousel-control-prev {
+header .slider .carousel-control-next,
+header .slider .carousel-control-prev {
     width: 5%;
 }
 
@@ -85,31 +100,37 @@ header .slider .carousel-item img {
 }
 
 /* Main */
-.main .top, .main .bot {
+.main .top,
+.main .bot {
     width: 90%;
     height: auto;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     padding-top: 30px;
 }
 
-.main .top .title, .main .bot .title {
+.main .top .title,
+.main .bot .title {
     margin-bottom: 20px;
 }
 
-.main .top .title h3, .main .bot .title h3 {
+.main .top .title h3,
+.main .bot .title h3 {
     font-weight: bold;
 }
 
-.main .top .content .row, .main .bot .content .row {
+.main .top .content .row,
+.main .bot .content .row {
     margin-left: 0;
 }
 
-.main .top .content .card, .main .bot .content .card {
+.main .top .content .card,
+.main .bot .content .card {
     width: 18rem;
 }
 
-.main .top .content .card .card-boby h3, .main .bot .content .card .card-boby h3 {
+.main .top .content .card .card-boby h3,
+.main .bot .content .card .card-boby h3 {
     font-weight: bold;
 }
 
@@ -119,7 +140,7 @@ footer {
 }
 
 footer .container {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -138,7 +159,7 @@ footer .container .logo .img {
 footer .container .logo .text {
     float: left;
     padding-top: 13px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
     font-size: large;
     margin-left: 10px;
@@ -157,4 +178,3 @@ footer ul {
 footer ul li {
     margin-bottom: 5px;
 }
-
